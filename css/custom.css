@@ -1,0 +1,165 @@
+
+/*CSS Modal Tips*/
+
+.modal-title {
+  margin-left: 40%;
+  font-size: 1.5em;
+  border-bottom: solid 1.5px #00BFB1;
+}
+
+.modal-footer button {
+  transition: 1s;
+  margin: 0 auto;
+  padding: 5px 30px;
+  background-color: #00BFB1;
+  border-color: #00BFB1;
+}
+
+.modal-footer button:hover {
+  transition: 1s;
+  background-color: #00BFB1;
+  border-color: #00BFB1;
+  opacity: .8;
+}
+
+.close {
+  color: #00BFB1 !important;
+}
+
+.close:hover {
+  color: #00BFB1 !important;
+}
+
+.close span:hover {
+  color: #00BFB1 !important;
+}
+
+@media (max-width: 991px) {
+  .header_area .navbar-collapse {
+      overflow-y: visible;
+  }
+}
+
+@media (min-width: 768px) {
+  .tercero {
+    margin: 0 auto;
+  }
+}
+
+/*Fin CSS Modal Tips*/
+
+/*CSS Sucursales*/
+
+#sucursales {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#sucursales img {
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+}
+
+#proximamente {
+  position: absolute;
+  top: 45px;
+  left: -70px;
+  text-align: center;
+  line-height: 50px;
+  z-index: 1;
+  background: #00BFB1;
+  opacity: 0.75;
+  width: 300px;
+  transform: rotate(-45deg);
+  overflow: none;
+  color: rgba(255,255,255,.8);
+  font-size: 1.15em;
+}
+
+.blanco-negro {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: .7;
+  max-height: 362.19px;
+}
+
+.proximamente {
+  position: relative;
+  display: block;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/*Fin CSS Sucursales*/
+
+/*CSS Tu Pedido*/
+
+.custom-file-label::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  display: block;
+  height: 2.25rem;
+  padding: .5rem .75rem;
+  line-height: ;
+  color: white;
+  content: "Cargar Archivo";
+  background-color: #00BFB1;
+  border-left: 0;
+  border-radius: 0;
+}
+
+.appointment-area .appointment-right .form-wrap .form-control {
+  margin-bottom: 10px;
+  border-radius: 0px;
+  padding: 0.5rem 0.75rem;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.custom-file-label {
+  color: rgba(0,0,0,.65);
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #00BFB1;
+  outline: 0;
+  outline-color: initial;
+  outline-style: initial;
+  outline-width: 0px;
+  box-shadow: 0 0 0 0.2rem rgba(0, 191, 177, .25);
+}
+
+.custom-file-input:focus~.custom-file-label::after {
+    border-color: #80bdff;
+}
+
+.custom-file-input:focus~.custom-file-label {
+    border-color: #00BFB1;
+    box-shadow: 0 0 0 0.2rem rgba(0, 191, 177, .25);
+}
+
+/*Fin CSS Tu Pedido*/
+
+/*CSS Contacto*/
+
+.info {
+  padding: 5px 10px;
+  background-color: rgba(0, 191, 177, .8);
+  border-radius: 5px;
+}
+
+.single-footer-widget .info {
+  color: white;
+  opacity: .95;
+}
