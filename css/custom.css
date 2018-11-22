@@ -1,4 +1,8 @@
 
+/*CSS Barra de Navegacion*/
+
+/*Fin CSS Barra de Navegacion*/
+
 /*CSS Modal Tips*/
 
 .modal-title {
@@ -51,7 +55,7 @@
 /*CSS Sucursales*/
 
 #sucursales {
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 50px;
 }
 
@@ -98,7 +102,29 @@
 
 /*Fin CSS Sucursales*/
 
+/*CSS OS*/
+
+#obras-sociales .row .about_box {
+  background-color: #E0E0E0;
+}
+
+.appointment-area .appointment-left .time-list li {
+  border-color: #00BFB1;
+}
+
+/*Fin CSS OS*/
+
 /*CSS Tu Pedido*/
+
+#pedido {
+  background-color: #E0E0E0;
+}
+
+#pedido .form-wrap {
+  -webkit-box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+  box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+}
 
 .custom-file-label::after {
   position: absolute;
@@ -162,4 +188,12 @@
 .single-footer-widget .info {
   color: white;
   opacity: .95;
+  margin-top: 70px;
+}
+
+
+@media (max-width: 413px) {
+  .appointment-area .appointment-right .form-wrap {
+    padding: 25px;
+  }
 }
