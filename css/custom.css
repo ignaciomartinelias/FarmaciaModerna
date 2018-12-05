@@ -197,3 +197,36 @@
     padding: 25px;
   }
 }
+
+/*CSS Boton WP*/
+
+.whatsapp {
+    transition: .5s;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+/*  display: none;*/
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background: #45DE53;
+  line-height: 45px;
+  border-radius: 50%;
+  padding-top: 1px;
+  padding-left: 1px;
+  font-size: 1.8em;
+  z-index: 5;
+  border: solid white 2px;
+}
+
+.whatsapp:hover {
+  transition: .5s;
+  background: #00BFB1;
+  color: white;
+  padding-top: 1px;
+}
+
+.whatsapp i {
+  font-weight: 500;
+}
