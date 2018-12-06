@@ -114,6 +114,20 @@
 
 /*Fin CSS OS*/
 
+/*CSS SLIDER-OS*/
+
+.os-wrapper {
+  width: 80%;
+  margin: -20px auto 80px;
+}
+
+.slider-os div img {
+  margin: auto;
+  width: 60%;
+}
+
+/*Fin SLIDER-OS*/
+
 /*CSS Tu Pedido*/
 
 #pedido {
@@ -189,6 +203,10 @@
   color: white;
   opacity: .95;
   margin-top: 70px;
+}
+
+.mail-chimp a {
+  color: #00BFB1;
 }
 
 

@@ -92,4 +92,33 @@
         });
     }
 
-})(jQuery)
+})(jQuery);
+
+    //------- Slider OS --------// 
+
+$(document).ready(function(){
+    $('.slider-os').slick({
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: false
+    });
+});
+
+
+    //------- Sroll a todos los href con # --------// 
+
+$(document).ready(function() {
+  $('a[href^="#"]').click(function() {
+    var destino = $(this.hash);
+    if (destino.length == 0) {
+      destino = $('a[name="' + this.hash.substr(1) + '"]');
+    }
+    if (destino.length == 0) {
+      destino = $('html');
+    }
+    $('html, body').animate({ scrollTop: destino.offset().top }, 1500);
+    return false;
+  });
+});
