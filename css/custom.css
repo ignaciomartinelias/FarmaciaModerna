@@ -112,6 +112,20 @@
   border-color: #00BFB1;
 }
 
+#obras {
+  font-size: 1.2em;
+}
+
+.activity h3 ,
+.activity i {
+  display: inline;
+  font-size: 3.5em;
+}
+
+.activity .activity_box .contadores {
+  font-size: 2.1em;
+}
+
 /*Fin CSS OS*/
 
 /*CSS SLIDER-OS*/
@@ -119,6 +133,12 @@
 .os-wrapper {
   width: 80%;
   margin: -20px auto 80px;
+}
+
+@media (max-width: 800px) {
+  .os-wrapper {
+    margin: -20px auto 40px;
+  }
 }
 
 .slider-os div img {

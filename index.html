@@ -12,7 +12,10 @@
 	<link rel="stylesheet" href="vendors/linericon/style.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<!-- Slick CSS -->
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<!-- AOS CSS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!-- Font Awesome CDN CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 	<!-- main css -->
@@ -146,7 +149,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="400">
 					<div class="categories_post">
 						<img src="img/personal.jpg" alt="Higiene Personal">
 						<div class="categories_details">
@@ -203,7 +206,7 @@
 				  </div>
 				</div>
 
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="400">
 					<div class="categories_post">
 						<img src="img/diabetes.jpeg" alt="Diabetes">
 						<div class="categories_details">
@@ -255,7 +258,7 @@
 				  </div>
 				</div>
 
-				<div class="col-lg-4 col-md-6 tercero">
+				<div class="col-lg-4 col-md-6 tercero" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="400">
 					<div class="categories_post">
 						<img src="img/bucal.jpg" alt="Cuidado Bucal">
 						<div class="categories_details">
@@ -311,7 +314,7 @@
 			<hr>
 
 			<div class="row">
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="300">
 					<div class="categories_post">
 						<img src="img/piel.jpg" alt="Cuidado de la Piel">
 						<div class="categories_details">
@@ -372,7 +375,7 @@
 				  </div>
 				</div>
 
-				<div class="col-lg-4 col-md-6">
+				<div class="col-lg-4 col-md-6" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="300">
 					<div class="categories_post">
 						<img src="img/deportes.jpg" alt="Deportes">
 						<div class="categories_details">
@@ -422,7 +425,7 @@
 				  </div>
 				</div>
 
-				<div class="col-lg-4 col-md-6 tercero">
+				<div class="col-lg-4 col-md-6 tercero" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="300">
 					<div class="categories_post">
 						<img src="img/otros.jpg" alt="Otros">
 						<div class="categories_details">
@@ -468,7 +471,6 @@
 				    </div>
 				  </div>
 				</div>
-
 			</div>
 		</div>
 	</section>
@@ -496,41 +498,27 @@
 
 						<div class="activity">
 							<div class="row">
-								<div class="col-lg-6 col-md-6">
-									<div class="activity_box">
-										<div>
-											<i class="lnr lnr-database"></i>
+								<div class="col-lg-12 col-md-12">
+									<div class="activity_box row">
+										<div class="col-lg-6 col-md-6">
+											<h3><strong>+ <span class="count">40 </strong></span></h3>											
 										</div>
-										<h3>+ <span class="counter">40</span> OS</h3>
-										<p>Obras Sociales</p>
-									</div>
-								</div>
-
-								<div class="col-lg-6 col-md-6">
-									<div class="activity_box">
-										<div>
-											<i class="lnr lnr-book"></i>
-										</div>
-										<h3 class="counter">1000</h3>
-										<p>Lorem Ipsum</p>
-									</div>
-								</div>
-								<div class="col-lg-6 col-md-6">
-									<div class="activity_box">
-										<div>
+										<div class="col-lg-6 col-md-6">
 											<i class="lnr lnr-users"></i>
+											<p id="obras">Obras Sociales</p>
 										</div>
-										<h3 class="counter">1000</h3>
-										<p>Lorem Ipsum</p>
 									</div>
 								</div>
-								<div class="col-lg-6 col-md-6">
-									<div class="activity_box">
-										<div>
-											<i class="lnr lnr-users"></i>
+								<div class="col-lg-12 col-md-12">
+									<div class="activity_box row">
+										<div class="col-lg-6 col-md-6">
+											<h3 class="contadores">+ <span class="count">1000 </span> <i class="lnr lnr-database"></i></h3>	
+											<p id="obras">Productos</p>										
 										</div>
-										<h3 class="counter">1000</h3>
-										<p>Lorem Ipsum</p>
+										<div class="col-lg-6 col-md-6">
+											<h3 class="contadores">+ <span class="count">50 </span> <i class="lnr lnr-database"></i></h3>	
+											<p id="obras">Marcas</p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -757,7 +745,11 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 	<script src="js/mail-script.js"></script>
+	<!-- Slick JS -->
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<!-- 
+	 -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="js/custom.js"></script>
 	
 </body>
