@@ -83,6 +83,12 @@
   margin: auto;
 }
 
+@media (max-width: 450px) {
+   #logo-proximamente {
+    max-width: 100px;
+  }
+}
+
 #proximamente {
   position: absolute;
   top: 45px;
