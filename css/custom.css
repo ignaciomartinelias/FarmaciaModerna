@@ -3,6 +3,30 @@
 
 /*Fin CSS Barra de Navegacion*/
 
+/*CSS SLIDER-MARCAS*/
+
+.marcas-wrapper {
+  width: 90%;
+  margin: 50px auto 10px;
+}
+
+.slider-marcas div img {
+  margin: auto;
+  width: 50%;
+}
+
+#tips {
+  padding-top: 20px;
+}
+
+#tips h1 {
+  padding-top: 40px;
+  border-top: solid .5px rgba(0,191,177,.75);
+}
+
+
+/*Fin SLIDER-MARCAS*/
+
 /*CSS Modal Tips*/
 
 .modal-title {
