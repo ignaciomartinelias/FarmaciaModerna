@@ -27,6 +27,16 @@
 
 /*Fin SLIDER-MARCAS*/
 
+/*CSS TIPS*/
+
+@media (max-width: 800px) {
+  .procedure_category .categories_post .categories_details {
+    opacity: .8;
+  }
+}
+
+/*FIN CSS TIPS*/
+
 /*CSS Modal Tips*/
 
 .modal-title {
