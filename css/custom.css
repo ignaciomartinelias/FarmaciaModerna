@@ -61,9 +61,26 @@
 
 #sucursales img {
   width: 100%;
+}
+
+#sucursal-caseros {
   -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
+}
+
+#logo-proximamente {
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  max-width: 200px;
+  z-index: 1;
+  opacity: .75;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 #proximamente {
